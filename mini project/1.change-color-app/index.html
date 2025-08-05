@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>change-color-app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="layout-box">
+            <div class="header-cnt">
+                <h1>Color changer App</h1>
+            </div>
+            <div class="btn-box">
+                <button id="randomColor" onclick="getRandomColor()">Random color</button>
+                <input type="text" placeholder="Enter color name..." id="inputField">
+                <button id="applyColor" onclick="getApplyColor()">Apply color</button>
+            </div>
+            <div class="current-color-cnt">
+                <h2 id="currentColor">Current Color: <span id="currentColorValue"></span> </h2>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
