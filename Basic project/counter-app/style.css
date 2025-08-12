@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.counter-App{
+    width: 450px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+}
+.counter-App h2{
+    margin: 30px 0px;
+}
+.btn-cnt button{
+    padding: 10px 20px;
+    border: 1px solid rgb(226, 156, 26);
+    border-radius: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+
+}
+#inc_btn{
+    background-color: rgb(21, 173, 21);
+
+}
+#dec-btn{
+    background-color: rgb(236, 77, 77);
+}
+#reset-btn{
+    background-color: rgba(202, 212, 212, 0.89);
+}
